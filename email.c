@@ -7,7 +7,7 @@
 
 int main(){
 
-    char em[500];
+    char em[300];
     printf("Enter email: ");
     scanf("%s",em);
 
@@ -34,7 +34,7 @@ int main(){
         }
     }
 
-    (temp && (indot - in) > 3 && C == 1) ? (printf("The email is valid\n")) : (printf("The email is not valid\n"));
+    (temp && (indot - in) > 3 && C == 1) ? (printf("valid\n")) : (printf("not valid\n"));
     return 0;
 
 }
